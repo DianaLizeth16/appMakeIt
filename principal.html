@@ -1,0 +1,109 @@
+<html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <script
+			  src="https://code.jquery.com/jquery-3.4.0.js"
+			  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+			  crossorigin="anonymous"></script>
+      <script type="text/javascript">
+      	  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+      </script>
+  <style type="text/css">
+#boton1, #boton2, #boton3{
+  -moz-box-shadow: 12px 15px 16px -7px #276873;
+  -webkit-box-shadow: 12px 15px 16px -7px #276873;
+  box-shadow: 12px 15px 16px -7px #276873;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+  background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+  background-color:#599bb3;
+  -moz-border-radius:31px;
+  -webkit-border-radius:31px;
+  border-radius:31px;
+  display:inline-block;
+  cursor:pointer;
+  color:#FFFFFF;
+  font-family:'Roboto';
+  font-size:22px;
+  padding:15px 55px;
+  text-decoration:none;
+  float: center;
+  margin-top: 8%;
+}
+#boton1:hover, #boton2:hover, #boton3:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+  background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+  background-color:#408c99;
+}
+#boton1:active, #boton2:active, #boton3:active{
+  position:center;
+  top:1px;
+}
+    </head>
+
+    <body>
+
+		    <nav>
+		    <div class="nav-wrapper blue">
+		      <a href="#" class="brand-logo center">MakeIt!</a>
+		      <ul id="nav-mobile" class="left hide-on-med-and-down">
+		        <li><a href=""><i class="material-icons">menu</i></a></li>
+		      </ul>
+		     <!-- <ul class="right"><li><a href="">login</a></li></ul> -->
+		     	<ul class="right"><li><a href=""><i class="material-icons">person</i></a></li>
+</ul>
+		    </div>
+		  </nav>
+
+
+
+ <div class="parallax-container">
+      <div class="parallax"><img src="http://centralinformativa.tv/wp-content/uploads/2015/10/1b346infantil.jpg"></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">Parallax</h2>
+        <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/parallax2.jpg"></div>
+    </div>
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <center>
+  <button id="boton1">
+    Evidencia empresarial
+  </button> <br>
+    <button id="boton2">
+    Finanzas
+  </button>
+    <br>
+  <button id="boton3">
+    Desarrollo de habilidades
+  </button>
+  </center>
+    </body>
+  </html>
